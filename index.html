@@ -1,25 +1,95 @@
 <html lang="en">
+
 <head>
     <title>Ricardo Matias Portfolio</title>
     <meta charSet="utf-8" />
     <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"
-    />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href="https://ricardomatias.net/portfolio" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-    <main class="container mx-auto text-xl">
-        <h1>Portfolio</h1>
-    </main>
+    <div class="frame">
+        <main class="container bg-white mx-auto my-4">
+            <!-- touchdesigner / openrndr / max/msp / canvas -->
+            <header class="container mx-auto">
+                <h1 class="text-8xl uppercase font-bold tracking-tight">portfolio</h1>
+                <h3 class="text-left ml-1 mt-2 uppercase text-3xl tracking-widest ">Ricardo Matias</h3>
+            </header>
+            <article class="mt-24">
+                <section id="openrndr" class="my-24">
+                    <h2 class="uppercase text-6xl font-bold mb-24 text-right">openrndr</h2>
+                    <div class="gallery justify-center align-middle grid grid-cols-2 gap-8">
+                        <img class="shadow-lg rounded-sm" src="/images/hades-sm.png" />
+                        <img class="shadow-lg rounded-sm" src="/images/lady-sm.png" />
+                        <img class="shadow-lg rounded-sm" src="/images/broken-glass-1.png" />
+                        <img class="shadow-lg rounded-sm" src="/images/broken-glass-2.png" />
+                        <img class="shadow-lg rounded-sm" src="/images/letter-r-2.png" />
+                        <img class="shadow-lg rounded-sm" src="/images/letter-x.png" />
+                        <img class="shadow-lg max-w-screen-md rounded-sm col-span-2 mx-auto"
+                            src="/images/openrndr-composition.jpg" />
+                        <img class="shadow-lg rounded-sm" src="/images/not-painting-2.jpg" />
+                        <img class="shadow-lg rounded-sm" src="/images/not-painting-3.jpg" />
+                    </div>
+                    <div class="flex flex-row justify-center items-center my-24">
+                        <video width="600" autoplay muted loop>
+                            <source src="/videos/lines-bloom-scaled.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                    <div class="flex flex-row justify-center items-center my-24">
+                        <video autoplay muted loop>
+                            <source src="/videos/holly-scaled.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                    <div class="text-right flex flex-col items-center">
+                    </div>
+                </section>
+                <section id="blender" class="my-24">
+                    <h2 class="uppercase text-6xl font-bold mb-24 text-right">blender / houdini</h2>
+                    <div class="gallery col-span-1 justify-center align-middle grid grid-cols-2 gap-32">
+                        <img class="shadow-lg rounded-sm" src="/images/curved-sculpture.jpg" />
+                        <img class="shadow-lg rounded-sm" src="/images/knots.jpg" />
+                        <img class="shadow-lg max-w-screen-md rounded-sm col-span-2 mx-auto"
+                            src="/images/twisted-curves.jpg" />
+                        <img class="shadow-lg rounded-sm" src="/images/deformed-sphere.png" />
+                        <img class="shadow-lg rounded-sm" src="/images/curl.jpg" />
+                    </div>
+                </section>
+                <section id="touch" class="my-24">
+                    <h2 class="uppercase text-6xl font-bold mb-24 text-right">touchdesigner</h2>
+                    <div class="flex flex-row justify-center items-center my-24">
+                        <video width="600" autoplay muted loop>
+                            <source src="/videos/icosahedron-react-diff.3.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <video width="600" autoplay muted loop>
+                            <source src="/videos/icosahedron-react-diff.3.mov" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </section>
+                <section>
+                    <div class="content">
+                        <h2 class="uppercase text-3xl text-white">web</h2>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </div>
+
 </body>
+
 </html>
