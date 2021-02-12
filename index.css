@@ -1,17 +1,3 @@
-h1,
-h2,
-h3 {
-  font-family: "Work Sans", Arial, Helvetica, sans-serif;
-}
-
-p {
-  font-family: "Gothic A1", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-img {
-    margin: auto;
-}
-
 .frame {
     border: solid 1rem black;
 }
@@ -29,11 +15,11 @@ img {
 }
 
 #maxmsp {
-  background-image: linear-gradient(45deg, #94fffda9, #94fffd);
+  /* background-image: linear-gradient(45deg, #94fffda9, #94fffd); */
 }
 
 .content {
-  margin: auto;
+  /* margin: auto; */
   /* transform: skewY(-12deg); */
 }
 

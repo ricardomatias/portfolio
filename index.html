@@ -11,72 +11,112 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href="https://ricardomatias.net/portfolio" />
     <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles/globals.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
     <div class="frame">
-        <main class="container bg-white mx-auto my-4">
-            <!-- touchdesigner / openrndr / max/msp / canvas -->
+        <main class="container bg-white mx-auto my-4 p-12">
             <header class="container mx-auto">
-                <h1 class="text-8xl uppercase font-bold tracking-tight">portfolio</h1>
-                <h3 class="text-left ml-1 mt-2 uppercase text-3xl tracking-widest ">Ricardo Matias</h3>
+                <h1 class="text-8xl uppercase font-bold tracking-tight">Ricardo Matias</h1>
+                <h3 class="text-left ml-1 mt-2 uppercase text-3xl tracking-widest ">portfolio</h3>
+                <!-- <h1 class="text-8xl uppercase font-bold tracking-tight">portfolio</h1>
+                <h3 class="text-left ml-1 mt-2 uppercase text-3xl tracking-widest ">Ricardo Matias</h3> -->
             </header>
-            <article class="mt-24">
-                <section id="openrndr" class="my-24">
+            <article class="mt-24 w-full box-content">
+                <section id="openrndr" class="my-48">
                     <h2 class="uppercase text-6xl font-bold mb-24 text-right">openrndr</h2>
-                    <div class="gallery justify-center align-middle grid grid-cols-2 gap-8">
-                        <img class="shadow-lg rounded-sm" src="/images/hades-sm.png" />
-                        <img class="shadow-lg rounded-sm" src="/images/lady-sm.png" />
-                        <img class="shadow-lg rounded-sm" src="/images/broken-glass-1.png" />
-                        <img class="shadow-lg rounded-sm" src="/images/broken-glass-2.png" />
-                        <img class="shadow-lg rounded-sm" src="/images/letter-r-2.png" />
-                        <img class="shadow-lg rounded-sm" src="/images/letter-x.png" />
-                        <img class="shadow-lg max-w-screen-md rounded-sm col-span-2 mx-auto"
-                            src="/images/openrndr-composition.jpg" />
-                        <img class="shadow-lg rounded-sm" src="/images/not-painting-2.jpg" />
-                        <img class="shadow-lg rounded-sm" src="/images/not-painting-3.jpg" />
+                    <div class="gallery justify-center align-middle grid grid-cols-2 gap-12 my-24">
+                        <div class="p-4">
+                            <img src="/images/hades-sm.png" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/lady-sm.png" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/broken-glass-1.png" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/broken-glass-2.png" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/letter-r-2.png" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/letter-x.png" />
+                        </div>
+                        <div class="p-4 col-span-2 mx-auto">
+                            <img class="max-w-screen-md" src="/images/openrndr-composition.jpg" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/not-painting-2.jpg" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/not-painting-3.jpg" />
+                        </div>
                     </div>
-                    <div class="flex flex-row justify-center items-center my-24">
-                        <video width="600" autoplay muted loop>
+                    <div class="flex flex-row justify-center items-center my-48">
+                        <video width="800" autoplay muted loop>
                             <source src="/videos/lines-bloom-scaled.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                     </div>
-                    <div class="flex flex-row justify-center items-center my-24">
-                        <video autoplay muted loop>
+                    <div class="flex flex-row justify-center items-center my-48">
+                        <video width="800" autoplay muted loop>
                             <source src="/videos/holly-scaled.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                     </div>
-                    <div class="text-right flex flex-col items-center">
+                    <div class="flex flex-row justify-center items-center my-48">
+                        <video width="800" autoplay muted loop>
+                            <source src="/videos/morph.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
                     </div>
                 </section>
                 <section id="blender" class="my-24">
                     <h2 class="uppercase text-6xl font-bold mb-24 text-right">blender / houdini</h2>
-                    <div class="gallery col-span-1 justify-center align-middle grid grid-cols-2 gap-32">
-                        <img class="shadow-lg rounded-sm" src="/images/curved-sculpture.jpg" />
-                        <img class="shadow-lg rounded-sm" src="/images/knots.jpg" />
-                        <img class="shadow-lg max-w-screen-md rounded-sm col-span-2 mx-auto"
-                            src="/images/twisted-curves.jpg" />
-                        <img class="shadow-lg rounded-sm" src="/images/deformed-sphere.png" />
-                        <img class="shadow-lg rounded-sm" src="/images/curl.jpg" />
+                    <div class="gallery col-span-1 justify-center align-middle grid grid-cols-2 gap-12">
+                        <div class="p-4">
+                            <img src="/images/curved-sculpture.jpg" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/knots.jpg" />
+                        </div>
+                        <div class="p-4 col-span-2 mx-auto">
+                            <img class="max-w-screen-md" src="/images/twisted-curves.jpg" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/deformed-sphere.png" />
+                        </div>
+                        <div class="p-4">
+                            <img src="/images/curl.jpg" />
+                        </div>
                     </div>
                 </section>
-                <section id="touch" class="my-24">
+                <section id="touch" class="my-48">
                     <h2 class="uppercase text-6xl font-bold mb-24 text-right">touchdesigner</h2>
-                    <div class="flex flex-row justify-center items-center my-24">
-                        <video width="600" autoplay muted loop>
-                            <source src="/videos/icosahedron-react-diff.3.mp4" type="video/mp4">
+                    <div class="flex flex-row justify-center items-center my-48">
+                        <video width="800" autoplay muted loop>
+                            <source src="/videos/curl-particles-twitter.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
-                        <video width="600" autoplay muted loop>
-                            <source src="/videos/icosahedron-react-diff.3.mov" type="video/mp4">
+
+                    </div>
+                    <div class="flex flex-row justify-center items-center my-48">
+                        <video width="800" autoplay muted loop>
+                            <source src="/videos/red-dress.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                    <div class="flex flex-row justify-center items-center my-48">
+                        <video width="800" autoplay muted loop>
+                            <source src="/videos/damned.mp4" type="video/mp4">
                             Your browser does not support HTML video.
                         </video>
                     </div>
@@ -87,9 +127,10 @@
                     </div>
                 </section>
             </article>
+            <footer class="text-lg text-center flex justify-center items-center">
+                <h3 class="text-left ml-1 mt-2 uppercase text-xl tracking-widest">the end</h3>
+            </footer>
         </main>
     </div>
-
 </body>
-
 </html>

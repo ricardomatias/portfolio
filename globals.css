@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Work Sans";
+    src: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap");
+  }
+
+  @font-face {
+    font-family: "Gothic A1";
+    src: url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600&display=swap");
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-title;
+  }
+
+  p {
+    @apply font-body;
+  }
+  
+  img {
+    @apply rounded-sm shadow-lg;
+  }
+  
+  video {
+    @apply rounded-sm shadow-lg;
+  }
+}
